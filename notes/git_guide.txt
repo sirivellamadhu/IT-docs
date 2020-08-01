@@ -1,2 +1,39 @@
 Git installation and command guide.
 
+1. install git for windows
+2. open git bash
+3. goto project directory
+4. To initiate use command >>git init
+5.  to add username and mail
+    >>git config --global user.email "you@example.com"
+    >>git config --global user.name "Your Name"
+
+6. git add <filename> to add files (use * for all files)
+7. git status to check status
+8. git commit -m "initial commit" >>to commit
+ Now you have saved local repo.
+
+-------------------------------------------------------
+
+Add remote repo in github
+--------------------------
+
+1. git remote add origin https://github.com/sirivellamadhu/IT-docs
+	>>for add url
+	or
+   git remote add origin git@github.com:alexpchin/<reponame>.git
+   >>for ssl connection
+
+2. git push -u origin master
+	>>to push the repo to github
+		>>it asks for userid and password
+
+3. for modifing remote url
+	>>git remote set-url origin new.git.url/here
+
+4. for pushing repo
+	>> git push origin master
+
+	if you get error  first fetch
+	>>git push --force origin master
+5. 
