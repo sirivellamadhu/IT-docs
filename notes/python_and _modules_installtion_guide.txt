@@ -1,0 +1,18 @@
+Python and modules installation document.
+------------------------------------------
+
+28/07/2020.
+
+1. Download python form www.python.org
+2. After installation add the python folder to path variable
+	>>Mycomputer
+		>>Thispc>>rightclick >>properties>>
+		>>advanced system settings >>environment variables.
+		>>under uservariables >>add
+		>>variablename: path 
+		>>variable value: C:\Users\madhu\AppData\Local\Programs\Python\Python38
+		>>then ok to all windows.
+
+3. open command prompt and type python.
+
+
