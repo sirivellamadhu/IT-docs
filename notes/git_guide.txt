@@ -36,4 +36,19 @@ Add remote repo in github
 
 	if you get error  first fetch
 	>>git push --force origin master
-5. 
+---------------------------------------------------------
+
+Second commit
+-------------------------------------------------
+1. modify or add files in your project
+2. >>git status
+	to check the chages in the project
+3. then >>git add files 
+	which are modified
+4. then >>git commit 
+	for commit the project
+5. >>git push origin master 
+	for updating to got repositaries
+6. repete the process
+
+--------------------------------------------
